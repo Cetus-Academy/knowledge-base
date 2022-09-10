@@ -1,0 +1,31 @@
+site_name: Cetus Academy
+extra_css:
+    - style.css
+
+# the documentation is written in polish
+theme:
+    name: material
+    language: pl
+    # Codeblock highlighting
+    highlightjs: true
+    hljs_languages:
+        - js
+        - ts
+        - json
+
+markdown_extensions:
+    - admonition
+    - codehilite:
+          guess_lang: false
+    - toc:
+          permalink: true
+    - pymdownx.superfences
+
+# files in docs are structured in english, but they must be shown in polish, which is why they are instead defined in this index
+nav:
+    - "index.md"
+    - "available-books.md"
+    - Ścieżka Rozwoju React.JS:
+          - "reactjs/working-with-different-resolutions.md"
+          - "reactjs/saving-private-keys.md"
+          - "reactjs/style-guide.md"
