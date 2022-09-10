@@ -1,6 +1,7 @@
-site_name: Cetus Academy
+site_name: Akademia
 plugins:
     - mkdocs-video
+    - search
 
 theme:
     name: material
@@ -11,8 +12,12 @@ theme:
         - js
         - ts
         - json
+    logo: asset/logo-dark.png
+    palette:
+        primary: white
+
 extra_css:
-    - style.css
+    - asset/style.css
 
 # extras for codeblock highlighting
 markdown_extensions:
