@@ -1,6 +1,6 @@
 # Książki dostępne w biurze
 
-Możliwe do wypożyczenia u nas.
+Poniżej znajduje się lista książek dostępnych u nas w biurze w Rzeszowie ul. Adama Matuszczaka 14. Chciałbyś wypożyczyć jakąś z tych książek? Odezwij się na kanale [general](https://discord.com/channels/898447530378035200/898447530378035204) 😎
 
 TODO - [https://tableconvert.com/excel-to-markdown](excel-to-markdown)
 
