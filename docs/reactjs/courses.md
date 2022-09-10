@@ -1,5 +1,10 @@
 # Kursy
 
+## [JavaScript - Jedyny Kurs, Którego Potrzebujesz!](https://www.udemy.com/course/javascript-jedyny-kurs-ktorego-potrzebujesz/) 
+- Płatny, dostępny na Udemy
+
+Kurs po Polsku od podstaw z JSa polecany przez naszych uczestników. Jeśli nie masz dużego doświadczenia w JavaScript a chcesz uczyć się React'a to zacznij pierwsze od tego kursu, aby dobrze zrozumieć podstawy JS'a a później rozpocznij kurs już typowo z React
+
 ## [React JS Crash Course](https://www.youtube.com/watch?v=w7ejDZ8SWv8)
 - Darmowy, dostępny na YouTube
 
@@ -19,8 +24,3 @@ Do tego wprowadza do routingu i reduxa
 - Płatny, dostępny na Udemy
 
 Kurs po polsku od podstaw polecany przez naszych uczestników
-
-## [JavaScript - Jedyny Kurs, Którego Potrzebujesz!](https://www.udemy.com/course/javascript-jedyny-kurs-ktorego-potrzebujesz/) 
-- Płatny, dostępny na Udemy
-
-Kurs po Polsku od podstaw z JSa polecany przez naszych uczestników

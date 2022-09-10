@@ -43,8 +43,11 @@ nav:
                 - "reactjs/roadmap.md"
                 - "reactjs/courses.md"
                 - "reactjs/what-to-know.md"
+                - "reactjs/next-steps.md"
           - "reactjs/working-with-different-resolutions.md"
           - "reactjs/saving-private-keys.md"
+          - "reactjs/useful-links.md"
+          - "reactjs/faq.md"
     - NestJS:
           - "nestjs/general-naming-conventions.md"
           - "nestjs/file-types-and-their-purpose.md"
