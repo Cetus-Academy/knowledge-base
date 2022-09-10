@@ -1,11 +1,10 @@
-## knowledge-base
+# knowledge-base
 
 Knowledge base for the Cetus Academy.
 
-## Testing locally
+# Testing locally
 
-make sure mkdocs, material for mkdocs, and whatever plugins may be necessary are installed first. 
-Then you can simply run `mkdocs serve` and visit `localhost:8000` in your browser.
-
-The following plugins are required:
-TODO: test the required plugins
+- Install mkdocs. [Instructions here](https://www.mkdocs.org/)
+- Install material for mkdocs. [Instructions here](https://squidfunk.github.io/mkdocs-material/)
+- Run `mkdocs serve` in the root directory of this repository.
+- `localhost:8000` should show the documentation page. Any changes to the markdown will refresh the website

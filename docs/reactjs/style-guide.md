@@ -26,7 +26,7 @@ getUserDataById(id);
 ```
 
 ```markdown
-# Notatka edytora
+# TODO - Notatka edytora
 Nie mam dobrych przykładów, ale w dokumentacji warto jest często umieszczać przykłady 
 i uzasadnienia zapisanych zasad.
 ```
@@ -54,7 +54,7 @@ Wszystkie nazwy w kodzie powinny być napisane w języku angielskim - bez wyjąt
 Wszystkie nazwy powinniśmy pisać z małej litery, za wyjątkiem komponentów oraz nazw klas w programowaniu obiektowym. Zwykłe nazwy powinny być w formie `getUsers`, błędnym zapisem zwykłej zmiennej byłoby zastosowanie nazwy `GetUsers`. 
 
 ```markdown
-# Notatka edytora
+# TODO - Notatka edytora
 Nie lepiej po prostu wytłumaczyć czym jest, 
 i jak się używa camelCase? a co z snake_case?
 ```

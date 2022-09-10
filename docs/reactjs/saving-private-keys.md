@@ -3,7 +3,7 @@
 - Endpointy i klucze prywatne należy przechowywać w pliku .env, czyli w zmiennych środowiskowych. <br/>
     Więcej informacji: [Adding Custom Environment Variables | Create React App](https://create-react-app.dev/docs/adding-custom-environment-variables/)
 
-- Plik .env powinien być prywatny, więc musi być umieszczony .gitignore.
+- Plik .env powinien być prywatny, więc musi być umieszczony w .gitignore.
 
 ## Jak powinniśmy zapisywać klucze
 

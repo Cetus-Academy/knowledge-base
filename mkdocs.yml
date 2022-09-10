@@ -6,13 +6,14 @@ extra_css:
 theme:
     name: material
     language: pl
-    # Codeblock highlighting
+    # codeblock highlighting
     highlightjs: true
     hljs_languages:
         - js
         - ts
         - json
 
+#
 markdown_extensions:
     - admonition
     - codehilite:
@@ -24,8 +25,27 @@ markdown_extensions:
 # files in docs are structured in english, but they must be shown in polish, which is why they are instead defined in this index
 nav:
     - "index.md"
+    - "trash.md"
     - "available-books.md"
-    - Ścieżka Rozwoju React.JS:
+    - JavaScript:
+          - "trash.md"
+    - .NET:
+          - "trash.md"
+    - React.JS:
+          - Starter Kit:
+                - "reactjs/roadmap.md"
+                - "reactjs/courses.md"
+                - "reactjs/what-to-know.md"
+          - "reactjs/style-guide.md"
           - "reactjs/working-with-different-resolutions.md"
           - "reactjs/saving-private-keys.md"
-          - "reactjs/style-guide.md"
+    - React Native:
+          - "trash.md"
+    - NestJS:
+          - "trash.md"
+    - Praca z Git:
+          - "trash.md"
+    - Praca w projekcie:
+          - "trash.md"
+    - Przydane poradniki wideo:
+          - "trash.md"
