@@ -18,8 +18,8 @@ Gdy będziemy używać tego typu nazw, to taki kod będzie mało zrozumiały dla
 Lepszą praktyką jest stosowanie nazw typu 'getUserById' - tego typu nazwa będzie bardziej zrozumiała dla innych programistów, 
 co znacznie ułatwi i umili pracę nad projektem.
 ```ts
-// Czy z pierwszej funkcji możemy się domyślić więcej, czy z drugiej?
-// Takie decyzje mogą mieć duży wpływ na generalną czytelność kodu.
+// czy z pierwszej funkcji możemy się domyślić więcej, czy z drugiej?
+// takie decyzje mogą mieć duży wpływ na generalną czytelność kodu
 getData(id);
 getUserDataById(id);
 

@@ -1,6 +1,8 @@
 # Śmieci
 
-TODO - Usunąć.
+TODO - Usunąć ten plik.
+TODO - Lepsze teksty alternatywne dla zdjęć.
+TODO - Bardziej spójne użycie `codeblocków` inline'owych
 
 Using Material for mkdocs <br/>
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).

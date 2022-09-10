@@ -1,8 +1,7 @@
 site_name: Cetus Academy
-extra_css:
-    - style.css
+plugins:
+    - mkdocs-video
 
-# the documentation is written in polish
 theme:
     name: material
     language: pl
@@ -12,8 +11,10 @@ theme:
         - js
         - ts
         - json
+extra_css:
+    - style.css
 
-#
+# extras for codeblock highlighting
 markdown_extensions:
     - admonition
     - codehilite:
@@ -28,24 +29,26 @@ nav:
     - "trash.md"
     - "available-books.md"
     - JavaScript:
-          - "trash.md"
+          - "javascript/good-practices-and-common-mistakes.md"
+          - "javascript/style-guide.md"
     - .NET:
-          - "trash.md"
+          - "dotnet/introduction.md"
     - React.JS:
           - Starter Kit:
                 - "reactjs/roadmap.md"
                 - "reactjs/courses.md"
                 - "reactjs/what-to-know.md"
-          - "reactjs/style-guide.md"
           - "reactjs/working-with-different-resolutions.md"
           - "reactjs/saving-private-keys.md"
-    - React Native:
-          - "trash.md"
     - NestJS:
-          - "trash.md"
+          - "nestjs/general-naming-conventions.md"
+          - "nestjs/file-types-and-their-purpose.md"
+          - "nestjs/folders-and-their-role.md"
+          - "nestjs/using-entity.md"
+          - "nestjs/authentication-in-nestjs.md"
     - Praca z Git:
-          - "trash.md"
-    - Praca w projekcie:
-          - "trash.md"
+          - "working-with-git/working-with-git.md"
+          - "working-with-git/working-with-a-new-exercise.md"
+          - "working-with-git/checklist-of-a-new-pull-request.md"
     - Przydane poradniki wideo:
-          - "trash.md"
+          - "video-tutorials/how-to-check-the-css-of-an-element-on-a-webpage.md"
