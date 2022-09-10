@@ -7,13 +7,11 @@
 
 ## Jak powinniśmy zapisywać klucze
 
-Plik .env:
-```env
+```env title=".env"
 SECRET_KEY="BARDZO WAŻNY SEKRET"
 ```
 
-Kod JavaScript:
-```js
+```js title="index.js"
 // nodejs sam nie importuje .env do środowiska, robi się to biblioteką dotenv
 // https://www.npmjs.com/package/dotenv
 require('dotenv').config()
@@ -26,7 +24,6 @@ console.log(process.env.SECRET_KEY)
     
 - W zwykłym pliku JSON
 ```json
-// /src/assets/variables.json
 {
     "proxy": "localhost:3000",
     "proxy2": "https://api.foodapp.academy.st.cetuspro.com",
