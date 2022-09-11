@@ -31,7 +31,6 @@ markdown_extensions:
 # files in docs are structured in english, but they must be shown in polish, which is why they are instead defined in this index
 nav:
     - "index.md"
-    - "trash.md"
     - "available-books.md"
     - JavaScript:
           - "javascript/good-practices-and-common-mistakes.md"
