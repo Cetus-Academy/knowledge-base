@@ -25,11 +25,11 @@ getUserDataById(id);
 
 ```
 
-```markdown
-# TODO - Notatka edytora
-Nie mam dobrych przykładów, ale w dokumentacji warto jest często umieszczać przykłady 
-i uzasadnienia zapisanych zasad.
-```
+## Casing
+
+W projektach najczęściej używany jest camelCase. 
+
+Wszystkie nazwy powinniśmy pisać z małej litery, za wyjątkiem komponentów oraz nazw klas w programowaniu obiektowym. Zwykłe nazwy powinny być w formie `getUsers`, błędnym zapisem zwykłej zmiennej byłoby zastosowanie nazwy `GetUsers`. 
 
 ## Struktura plików kodu źródłowego
 
@@ -48,13 +48,3 @@ Warto podzielić folder assets na podfoldery takie jak: `scss`, `images`, `audio
 ## Użycie Języka Polskiego
 
 Wszystkie nazwy w kodzie powinny być napisane w języku angielskim - bez wyjątku ;D
-
-## Casing
-
-Wszystkie nazwy powinniśmy pisać z małej litery, za wyjątkiem komponentów oraz nazw klas w programowaniu obiektowym. Zwykłe nazwy powinny być w formie `getUsers`, błędnym zapisem zwykłej zmiennej byłoby zastosowanie nazwy `GetUsers`. 
-
-```markdown
-# TODO - Notatka edytora
-Nie lepiej po prostu wytłumaczyć czym jest, 
-i jak się używa camelCase? a co z snake_case?
-```

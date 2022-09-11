@@ -1,3 +1,13 @@
 .md-header__inner {
 	height: 60px;
 }
+
+img {
+	margin: 10px;
+	box-shadow: 0px 0px 2em rgba(0, 0, 0, 0.353);
+}
+
+img[alt="logo"] {
+	margin: none;
+	box-shadow: none;
+}

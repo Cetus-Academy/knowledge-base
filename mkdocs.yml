@@ -2,6 +2,7 @@ site_name: Baza wiedzy Cetus Academy
 plugins:
     - mkdocs-video
     - search
+    - glightbox
 
 theme:
     name: material
