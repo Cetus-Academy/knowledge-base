@@ -12,17 +12,16 @@ const msgs = 100; // vs...
 const MAX_MESSAGES_PER_MINUTE = 100;
 ```
 
-Nazwy powinny być czytelne i zrozumiałe. Nie należy stosować nazw typu 'getData'. 
+Nazwy powinny być czytelne i zrozumiałe. Nie należy stosować nazw typu `getData`. 
 Gdy będziemy używać tego typu nazw, to taki kod będzie mało zrozumiały dla innych programistów z naszego zespołu. 
 
-Lepszą praktyką jest stosowanie nazw typu 'getUserById' - tego typu nazwa będzie bardziej zrozumiała dla innych programistów, 
+Lepszą praktyką jest stosowanie nazw typu `getUserById` - tego typu nazwa będzie bardziej zrozumiała dla innych programistów, 
 co znacznie ułatwi i umili pracę nad projektem.
 ```ts
 // czy z pierwszej funkcji możemy się domyślić więcej, czy z drugiej?
 // takie decyzje mogą mieć duży wpływ na generalną czytelność kodu
 getData(id);
 getUserDataById(id);
-
 ```
 
 ## Casing
