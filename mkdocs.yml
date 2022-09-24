@@ -58,5 +58,8 @@ nav:
           - "working-with-git/working-with-git.md"
           - "working-with-git/working-with-a-new-exercise.md"
           - "working-with-git/checklist-of-a-new-pull-request.md"
+    - Praca z API:
+          - "working-with-apis/working-with-apis.md"
+          - "working-with-apis/useful-links.md"
     - Przydane poradniki wideo:
           - "video-tutorials/how-to-check-the-css-of-an-element-on-a-webpage.md"
