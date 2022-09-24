@@ -5,7 +5,7 @@
 W folderze z prismą powinniśmy trzymać folder z wszystkimi modelami. 
 Rozrzucenie ich po całym projekcie nie jest dobrym pomysłem ze względu na późniejsze problemy z ich odszukaniem.
 
-![Fajny screenshot](asset/prisma-explorer.png)
+![Explorer prisma](asset/prisma-explorer.png)
 
 ## src
 
@@ -15,34 +15,34 @@ W folderze wydzieliłem 3 główne moduły:
 - `common`
 - `templates` - Przydatne tylko w przypadku gdy korzystamy z MVC lub w jakimś celu generujemy widoki
 
-![Fajniejszy screenshot](asset/src-explorer.png)
+![Explorer src](asset/src-explorer.png)
 
 ## api
 
 Dobrą konwencją jest wyodrębnienie kilku folderów które będą określać poziom dostępności do znajdujących się poniżej endpintów
 
-![Fajniejszy screenshot](asset/api-explorer-1.png)
+![Explorer api](asset/api-explorer-1.png)
 
 Następnie każdy z tych folderów będzie posiadać własny zestaw funkcjonalności które będą wyodrębnione w osobnych folderach. <br/>
 Plik `serviceAdmin.module.ts` importuje wszystkie znajdujące się w folderze serviceAdmin controllery i sewisy, 
 następnie ten moduł jest importowany do `app.module.ts`
 
-![Fajniejszy screenshot](asset/api-explorer-2.png)
+![Explorer api](asset/api-explorer-2.png)
 
 We wnętrzu każdego folderu wykonujemy standardowe operacje 
 
-![Fajniejszy screenshot](asset/api-explorer-3.png)
+![Explorer api](asset/api-explorer-3.png)
 
 ## common
 
 Przetrzymuje wszystkie przydatne globalnie dekoratory, moduły, typy etc
 
-![Fajniejszy screenshot](asset/api-common.png)
+![Explorer modules](asset/api-common.png)
 
 ## modules
 
 Wszystkie paczki które nie są ściśle związane z projektem i mogą łatwo zostać przeniesione do innego projektu proponuję trzymać w folderze modules.
 
-![Fajniejszy screenshot](asset/api-modules.png)
+![Explorer modules](asset/api-modules.png)
 
 

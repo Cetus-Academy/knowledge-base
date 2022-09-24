@@ -39,10 +39,10 @@ Praktyki z nazewnictwem powinny być stosowane nie tylko do nazw funkcji, metod 
 Warto podzielić folder assets na podfoldery takie jak: `scss`, `images`, `audio`, dzielone przez typ pliku.
 
 ### Zła organizacja plików
-![Źle no](asset/wrong-use-of-assets.png)
+![Zła organizacja plików](asset/wrong-use-of-assets.png)
 
 ### Dobra organizacja plików
-![Dobrze no](asset/correct-use-of-assets.png)
+![Dobra organizacja plików](asset/correct-use-of-assets.png)
 
 ## Użycie Języka Polskiego
 
