@@ -17,7 +17,7 @@ jobs:
                   python-version: "pypy-3.7"
 
             - name: Workaround requirements.txt
-              run: rm /home/runner/work/_actions/afritzler/mkdocs-gh-pages-action/main/requirements.txt
+              run: echo "" > /home/runner/work/_actions/afritzler/mkdocs-gh-pages-action/main/requirements.txt
 
             - name: Deploy docs
               uses: afritzler/mkdocs-gh-pages-action@main
