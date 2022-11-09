@@ -16,12 +16,8 @@ jobs:
               with:
                   python-version: "pypy-3.7"
 
-            - name: Workaround requirements.txt
-              run: echo "" > /home/runner/work/_actions/afritzler/mkdocs-gh-pages-action/main/requirements.txt
-
             - name: Deploy docs
               uses: afritzler/mkdocs-gh-pages-action@main
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
                   REQUIREMENTS: requirements.txt
-                  #GITHUB_DOMAIN: github.myenterprise.com
